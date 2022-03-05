@@ -1,0 +1,57 @@
+<!doctype html>
+
+	<html>
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Formulario</title>
+
+		</head>
+
+		<body>
+			<h2>Login</h2>
+			<form>
+				
+				login<br>
+				<!--IMPUT VAI CAPTAR OS DADOS-->
+				<input type="text" name="login"><br> <!-- name é o que vai passar os dados para uma proxima tela para posteriormente realizar o processamento dessa informação-->
+
+				senha:<br>
+				<input type="password" name="senha"> <!--colocando password nao aparece o texto digitado-->
+
+				<input type="submit" value="logar"><br> <!-- dessa forma (submit) envia os dados mas de maneira nao segura-->
+
+			</form>
+
+			<h2>Cadastre-se</h2>
+				<form>
+					login<br>
+					<input type="text" name="login"><br><br>
+					Sexo:<br>
+					<input type="radio" name="sexo" value="M">Masculino<br> <!-- ao colocar o mesmo NAME o usuário pode marcar apenas uma caixa de seleção-->
+					<input type="radio" name="sexo" value="F">Feminino<br> <!-- com o VALUE a linguagem de programação consegue saber qual valor foi escolhido pelo usuario-->
+					
+					interesses<br>
+					<input type="checkbox" name="interesses">Futebol<br> <!--checkbox vira uma caixa de seleção de varias opções onde pode ser marcada mais de uma-->
+					<input type="checkbox" name="interesses">Cursos<br>
+					<input type="checkbox" name="interesses">Moda<br><br>
+
+					Estado<br>
+					<select name="Estado"> <!-- tipo lista suspensa do Xcell-->
+						<option value="SP">SP</option>
+						<option value="MG">MG</option>
+						<option value="RJ">RJ</option>
+					</select><br><br>
+
+					Observações:<br>
+					<textarea></textarea>
+
+					<input type="submit" name="cadastrar">
+					
+				</form>
+
+
+		</body>
+	</html>
