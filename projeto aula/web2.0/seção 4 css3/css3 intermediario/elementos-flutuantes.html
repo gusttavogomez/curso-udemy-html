@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<title>Elementos flutuantes na pratica</title> 
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="stilo.css">
+
+		<style type="text/css">
+
+			body{
+				background: f4f4f4;
+			}
+			
+			#principal{
+				width: 920px;
+			}
+
+			.noticia{
+				background: #e5e5e5;
+				padding: 5px;
+				width: 280px;
+				margin: 8px;
+				float: left;
+			}
+			.clear{ /* feita para limpar os elementos flutuantes */
+				clear: both;
+			}
+
+			.imagem-galeria{
+				background: white;
+				width: 265px;
+				padding: 5px;
+				float: left;
+				margin: 15px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="principal">
+			
+
+			<div>
+
+				<div class="noticia">
+					
+					<h2> O Gerador de Texto Lorem Ipsum.</h2>
+					<p>
+						O Gerador de Texto Lorem Ipsum pode ser utilizado para você que está desenvolvendo seu projeto e precisa de texto aleatório para preencher os espaços e fazer testes.
+					</p>
+					<a href=""> >veja mais</a>
+				</div>
+
+				<div class="noticia">
+					
+					<h2> O Gerador de Texto Lorem Ipsum.</h2>
+					<p>
+						O Gerador de Texto Lorem Ipsum pode ser utilizado para você que está desenvolvendo seu projeto e precisa de texto aleatório para preencher os espaços e fazer testes.
+					</p>
+					<a href=""> >veja mais</a>
+				</div>
+
+				<div class="noticia">
+					
+					<h2> O Gerador de Texto Lorem Ipsum.</h2>
+					<p>
+						O Gerador de Texto Lorem Ipsum pode ser utilizado para você que está desenvolvendo seu projeto e precisa de texto aleatório para preencher os espaços e fazer testes.
+					</p>
+					<a href=""> >veja mais</a>
+				</div>
+
+			</div> <!-- fim noticias -->
+
+			<div class="clear"></div>
+
+				<div>
+					
+					<div class="imagem-galeria">
+						<img src="imagens/imagem1.png">
+						<p> resumo da imagen </p>
+					</div>
+
+					<div class="imagem-galeria">
+						<img src="imagens/imagem2.png">
+						<p> resumo da imagen </p>
+					</div>
+
+					<div class="imagem-galeria">
+						<img src="imagens/imagem3.png">
+						<p> resumo da imagen </p>
+					</div>
+
+					<div class="imagem-galeria">
+						<img src="imagens/imagem4.png">
+						<p> resumo da imagen </p>
+					</div>
+
+					<div class="imagem-galeria">
+						<img src="imagens/imagem5.png">
+						<p> resumo da imagen </p>
+					</div>
+
+
+				</div>
+
+		</div> <!-- fim principal -->
+
+	</body>
+
+</html>
